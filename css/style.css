@@ -1,0 +1,43 @@
+body{
+    background-color: #fee2b3;
+}
+#title{
+    text-align: center;
+    color:#562349;
+    font-size: 130px;
+    margin-top: 0px;
+    border: solid #562349 4px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 30px 50% 0 40%;
+}
+#bio{
+    border: solid #ad6989 5px;
+    padding: 20px;
+    font-size: 25px;
+}
+#para{
+    border: 4px solid #562349;;
+    margin: 0px;
+}
+#para2{
+    /* float: right; */
+    display: block;
+    margin: 0px 2% 10% 2%;
+    color:#562349;
+}
+#name{
+    font-size: 45px;
+    text-align: center;
+    color:#562349;
+}
+footer{
+    font-size: 25px;
+    color: #fee2b3; 
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #562349;;
+}
