@@ -41,3 +41,13 @@ footer{
     margin-top: 20px;
     background-color: #562349;;
 }
+#top{
+    color:#562349;
+    border: solid #ad6989 5px;
+    margin: 0 40% 20px;
+    padding-left: 20px;
+}
+.shows{
+    color:#562349;
+    font-size: 20px;
+}
