@@ -2,20 +2,24 @@
 'use strict';
 var correct=0, attempt = 0, attempt2=0;
 var userName =  prompt('What is your name?');
-var iceCream = prompt('Welcome '+ userName +'! Let me ask you some questions, Do you think I like ice-cream?(Y/N)').toUpperCase();
+function question1() {
+  var iceCream = prompt('Welcome '+ userName +'! Let me ask you some questions, Do you think I like ice-cream?(Y/N)').toUpperCase();
 
-if(iceCream === 'Y'){
-  alert('You\'re right, I could spend my whole life eating only ice-cream');
-  correct++;
-  //console.log("You're right, I could spend my whole life eating only ice-cream");
-} else if (iceCream === 'N') {
-  alert('Are you serious? who does\'nt like ice cream!!!');
-  //console.log('Are you serious? who does\'nt like ice cream!!!');
-}else {
-  alert('You should answer with Y or N');
-  //console.log('You should answer with Y or N');
+  if(iceCream === 'Y'){
+    alert('You\'re right, I could spend my whole life eating only ice-cream');
+    correct++;
+    //console.log("You're right, I could spend my whole life eating only ice-cream");
+  } else if (iceCream === 'N') {
+    alert('Are you serious? who does\'nt like ice cream!!!');
+    //console.log('Are you serious? who does\'nt like ice cream!!!');
+  }else {
+    alert('You should answer with Y or N');
+    //console.log('You should answer with Y or N');
+  }
+  
 }
-
+question1();
+function question2() {
 var travel = prompt('Do I like to travel?(Y/N)').toUpperCase();
 
 if(travel === 'Y'){
@@ -29,7 +33,9 @@ if(travel === 'Y'){
   alert('You should answer with Y or N');
   //console.log('You should answer with Y or N');
 }
-
+}
+question2();
+function question3() {
 var city = prompt('Do you think I live in a famous city?(Y/N)').toUpperCase();
 
 if(city === 'Y'){
@@ -43,7 +49,9 @@ if(city === 'Y'){
   alert('You should answer with Y or N');
   //console.log('You should answer with Y or N');
 }
-
+}
+question3();
+function question4() {
 var study = prompt('Have I ever been to college?(Y/N)').toUpperCase();
 
 if(study === 'Y'){
@@ -57,7 +65,9 @@ if(study === 'Y'){
   alert('You should answer with Y or N');
   //console.log('You should answer with Y or N');
 }
-
+}
+question4();
+function question5() {
 var rich = prompt('I am a millionaire, do you think I\'m lying?(Y/N)').toUpperCase();
 
 if(rich === 'Y'){
@@ -71,6 +81,9 @@ if(rich === 'Y'){
   alert('You should answer with Y or N');
   //console.log('You should answer with Y or N');
 }
+}
+question5();
+function question6() {
 
 var luckyNo = Math.floor(Math.random() * 100);
 
@@ -91,6 +104,9 @@ do{
 if(attempt === 4){
   alert('Actually, my lucky number is '+ luckyNo);
 }
+}
+question6();
+function question7() {
 
 var arr = ['sherlock','hannibal','prison break','ordeal by innocence',
   'breaking bad','game of thrones','the last kingdom','house','the mentalist','modern family'];
@@ -113,3 +129,4 @@ if(attempt2===6){
 }
 
 alert('Well Done '+ userName + ' You have answered ' + correct + ' Questions correctly!');
+}question7();
